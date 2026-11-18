@@ -153,6 +153,14 @@ Open the local address shown in the terminal, usually:
 http://127.0.0.1:7860
 ```
 
+## Dashboard Screenshot
+
+The **Gradio dashboard** lets users enter a passage and review the predicted class, estimated AI and human probabilities, and model confidence. This screenshot shows the dashboard **before any text has been analyzed**; the visible zero values are placeholders, **not** prediction results.
+
+![Human vs Machine Gradio dashboard showing text input and an analysis panel](assets/dashboard.png)
+
+*Figure 1. Human vs Machine dashboard in its initial, untested state (browser controls excluded).*
+
 ## Model Workflow
 
 ```text
@@ -228,3 +236,7 @@ Possible improvements include:
 ## Project Purpose
 
 The purpose of this project is to explore whether measurable writing characteristics can help distinguish human-written text from AI-generated text using a Random Forest classifier while maintaining a transparent and reproducible modelling process.
+
+---
+
+Project author: **Kevin Mutua** | [GitHub profile](https://github.com/alpha-endgame)
